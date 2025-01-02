@@ -64,6 +64,7 @@ Personal-portfolio/
     ├── images/             # Folder for images
         ├── screenshot1.png # Screenshot of the website
         ├── screenshot2.png # Screenshot of the website
+        ├── screenshot3.png # Screenshot of the website
 ```   
 
 ## Installation 🛠️
