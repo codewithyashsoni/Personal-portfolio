@@ -30,13 +30,28 @@ Access the live version of the website here: [Personal Portfolio](https://codewi
 
 Here are the projects showcased on this portfolio:
 1. **[Survey Form](https://codewithyashsoni.github.io/Survey-form/)**  
-   A basic survey form to collect user input.
+
 2. **[Tribute Page](https://codewithyashsoni.github.io/Tribute-page/)**  
-   A tribute page dedicated to a famous personality.
+
 3. **[Python Documentation](https://codewithyashsoni.github.io/Python-documentation/)**  
-   A documentation-style project focused on Python.
+
 4. **[Product Landing Page](https://codewithyashsoni.github.io/Product-landing-page/)**  
-   A landing page for a fictional product.
+
+## Screenshots 📸
+
+Here are some previews of the website:
+
+### Home Section
+
+<img src="https://github.com/codewithyashsoni/Personal-portfolio/blob/180a5cd235fbb1820183c78983c01ace1c568874/assets/images/screenshot1.png" alt="First screenshot of webpage">
+
+### Projects Section
+
+<img src="https://github.com/codewithyashsoni/Personal-portfolio/blob/180a5cd235fbb1820183c78983c01ace1c568874/assets/images/screenshot2.png" alt="Second screenshot of webpage">
+
+### Contact Section
+
+<img src="https://github.com/codewithyashsoni/Personal-portfolio/blob/180a5cd235fbb1820183c78983c01ace1c568874/assets/images/screenshot3.png" alt="Third screenshot of webpage">
 
 ## Project Structure 📂
 
