@@ -1,0 +1,282 @@
+:root{
+    --white: #f0f0f0;
+    --red: #be3144;
+    --blue: #45567d;
+    --gray: #303841;
+}
+  
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+  
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--white);
+}
+  
+#navbar{
+    background-color: var(--red);
+    margin: 0;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: flex-end;
+    z-index: 1000;
+    font-family: "Poppins", serif;
+}
+  
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0 2rem 0 0;
+}
+  
+nav > ul > a{
+    color: var(--white);
+    font-size: 2rem;
+    padding: 1rem;
+    height: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+  
+nav > ul >a:hover{
+    background-color: var(--gray);
+}
+  
+.welcome-section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background: linear-gradient(62deg,
+    #3a3d40 0%,
+    #181719 100%);
+}
+  
+h1{
+    font-size: 6rem;
+    font-family: "Raleway", serif;
+    color: var(--white);
+    text-align: center;
+}
+  
+.welcome-section > p{
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    color: var(--red);
+    text-align: center;
+}
+  
+.project-section{
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
+.project-header{
+    font-family: "Raleway", sans-serif;
+    font-size: 2.9rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    border-bottom: 5px solid var(--white);
+    color: var(--white);
+    text-align: center;
+}
+  
+.projects-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 3rem;
+}
+  
+.projects{
+    width: 26%;
+    background-color: var(--gray);
+    text-decoration: none;
+    margin-bottom: 3rem;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.5);
+}
+  
+  
+.project-tile{
+    width: 100%;
+    object-fit: cover;
+}
+  
+.project-title{
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    color: var(--white);
+}
+  
+.code{
+    color: var(--red);
+}
+  
+.contact-section{
+    height: 80vh;
+    width: 100%;
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+  
+.contact-section-header > h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: var(--white);
+  
+}
+  
+.contact-section-header > p{
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: var(--white);
+}
+  
+.contact-detail{
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    color: white;
+    padding: 1rem 2rem;
+    display: inline-block;
+}
+  
+.cantact-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+footer{
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid var(--red);
+}
+  
+footer > p, button{    
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    margin: 2rem;
+    color: var(--white);
+}
+  
+footer > a{
+    width: 20%;
+}
+  
+button{
+    width: 100%;
+    background-color: var(--gray);
+    cursor: pointer;
+}
+  
+@media only screen and (max-width:1415px){
+    *{
+        font-size: 90%;
+    }
+  
+    .projects{
+        width: 30%;
+    }
+}
+  
+@media only screen and (max-width: 1180px){
+    *{
+        font-size: 80%;
+    }
+
+    .projects{
+        width: 40%;
+    }
+}
+  
+  @media only screen and (max-width: 890px){
+    *{
+        font-size: 70%;
+    }
+  
+    .projects{
+        width: 45%;
+    }
+}
+  
+@media only screen and (max-width: 710px){
+    *{
+        font-size: 70%;
+    }
+
+    .projects{
+        width: 70%;
+    }
+}
+  
+@media only screen and (max-width: 540px){
+    .projects{
+        width: 80%;
+    }
+  
+    .welcome-section h1 {
+        font-size: 4rem;
+    }
+  
+    .welcome-section p {
+        font-size: 1.8rem;
+    }
+  
+  
+    .contact-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+  
+    .contact-detail {
+        flex: 1 1 45%;
+        text-align: center;
+    }
+  
+    @media only screen and (max-width: 425px) {
+        .contact-detail {
+            flex: 1 1 100%;
+        }
+    }
+}
+  
+  
